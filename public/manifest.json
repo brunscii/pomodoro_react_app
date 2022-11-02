@@ -1,0 +1,11 @@
+{
+    "name":"pomodoro",
+    "description":"A typical 25 + 5 timer with adjustable break and sesion time",
+    "version":"0.0.1",
+    "manifest_version":3,
+    "author":"Chris Carlin",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"Pomodoro"
+    }
+}

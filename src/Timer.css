@@ -1,0 +1,87 @@
+body{
+    background-color:rgb(39, 39, 39);
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#timer{
+    background-color: hsla(16, 100%, 50%, 0.5);
+    border: 2px solid rgb(174, 116, 50);
+    padding: 1.2rem;
+    border-radius: 15%;
+    /* width:fit-content; */
+    margin: 0 auto;
+    display:grid;
+    
+    grid-template-columns:1.5fr 1fr;
+    
+    /* aspect-ratio: 1.29; */
+}
+
+.plus-minus{
+    display: flex;
+    /* flex-direction: column; */
+    align-items:center;
+    margin-top: 1rem;
+}
+
+.plus-minus button{
+    box-sizing: border-box;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    font-size: x-large;
+    box-shadow: 1px -1px 2px -1px,
+    -2px 2px 2px -2px;
+}
+
+#countdown{
+    grid-column: 1/3;
+}
+
+.time-label{
+    /* padding: .1rem .2rem .1rem 0; */
+    display: block;
+    /* width: 8rem; */
+    text-align: left;
+}
+
+.time{
+    border: 1px inset rgba(201, 25, 9, 0.699);
+    box-sizing: border-box;
+    height: 2.3rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #333;
+    text-shadow: 1px 1px 2px red,
+    -1px -1px 2px blue;
+    /* margin-left: 1rem; */
+}
+
+#reset{
+    margin-top: .5rem;
+    grid-column: 2/2;
+    color: rgba(109, 7, 7, 0.808);
+    font-weight: bold;
+
+}
+#start_stop{
+    margin-top: .5rem;
+    grid-column: 1/2;
+}
+
+.active{
+    /* background-color: rgb(89, 165, 66); */
+    color: green !important;
+}
+.inactive{
+    color: #333;
+}
