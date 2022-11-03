@@ -1,5 +1,8 @@
-# Getting Started with Create React App
+# This is a simple Pomodoro Timer built with react
+This is a reupload of my previous repo that had some issues. This starts after the first 13 commits of the original repo
 
+
+This uses a general create react app template and such
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
